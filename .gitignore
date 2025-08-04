@@ -1,0 +1,32 @@
+# === Node / Tools (au cas où tu ajoutes des outils comme npm) ===
+node_modules/
+dist/
+build/
+
+# === VS Code ===
+.vscode/
+
+# === Mac OS ===
+.DS_Store
+
+# === Logs et autres fichiers temporaires ===
+*.log
+*.tmp
+*.swp
+
+# === Systèmes ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === HTML build (si tu compiles du HTML par un outil) ===
+*.html~
+
+# === Prettier / ESLint / autres outils ===
+.cache/
+*.eslintcache
+
+# === Environnements / secrets ===
+.env
+.env.local
+.env.*.local
